@@ -1,0 +1,2 @@
+/*! bodas-ag 2015-11-17 */
+"use strict";var app=angular.module("bodasApp",["ngRoute"]);app.config(["$routeProvider",function($routeProvider){$routeProvider.when("/login",{templateUrl:"partials/login.html",controller:"loginCtrl"}),$routeProvider.otherwise({redirectTo:"/login"})}]);
